@@ -1,7 +1,7 @@
 # Apple Photos RAW Scripts
 AppleScript for managing RAW files in Apple Photos
 
-When importing via Camera Connection Kit, lots of CR2, NEF, etc. files end up in your Apple Photos library. Depending on your workflow, you may want to delete them from their or re-encode them to DNG in order to save space.
+When importing via Camera Connection Kit, lots of CR2, NEF, etc. files end up in your Apple Photos library. Depending on your workflow, you may want to delete them from there or re-encode them to DNG in order to save space.
 
 ## Exporting and Converting
 
@@ -32,7 +32,6 @@ WARNING: If you delete and reimport the RAW images, they will not be added to an
 2. Open the `ExportRAW.scpt` in Script Editor
 3. Run the Script by pressing the play button in the toolbar
 4. It will ask for an output folder 
-
-
+5. When the script finishes, you should have an output folder containing all of the original RAW files, new DNG files and an album in Photos which contains all of the exported RAW files.
 
 
